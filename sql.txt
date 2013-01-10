@@ -1,0 +1,41 @@
+create table student
+(
+	IdStudent char(5) NOT NULL CONSTRAINT pkIdStudent PRIMARY KEY,
+	FullName char(20) NOT NULL,
+	NickName char (20),
+	Class char(10),
+	MainPoint char(10),
+	Sex char(10),
+	PlaceofBirth char(20),
+	DateofBirth char(20),
+	Address char (30),
+	City char(20),
+	State char(20),
+	PhoneNumber char(13),
+	Email char(20),
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
